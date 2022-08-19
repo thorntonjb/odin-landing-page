@@ -146,3 +146,38 @@ img.placeholder {
     display: flex;
     justify-content: end;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect {
+    width: 600px;
+    height: 150px;
+    background: #3882F6;
+    border-radius: 15px;
+    margin: 100px;
+    padding: 50px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    background:#3882F6;
+    border:white;
+    border-radius: 15px;
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.subtext#sub {
+    font-weight: lighter;
+    margin: 0px;
+}
