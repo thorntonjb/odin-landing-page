@@ -49,6 +49,7 @@ a {
 
 .text {
     width: 50%;
+    font-weight: lighter;
 }
 
 h1.Hero {
@@ -84,4 +85,43 @@ img.placeholder {
     padding-right: 100px;
     width: 400px;
     height: 200px;
+}
+
+.bottom {
+    background-color: white;
+}
+
+.boxes {
+    display: grid;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #adaeaf;
+    font-weight: lighter;
+}
+
+.boxes {
+    justify-items: center;
+    max-width: 200px;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    border: 15px #3882f6;
 }
