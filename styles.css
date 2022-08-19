@@ -77,6 +77,8 @@ a {
     font-weight: bold;
     font-size: 14px;
     border-radius: 25px;
+    border-style: solid;
+    border-color: white;
 }
 
 img.placeholder {
@@ -166,8 +168,10 @@ img.placeholder {
     display: flex;
     align-items: center;
     background:#3882F6;
-    border:white;
-    border-radius: 15px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: white;
+    border-style:solid;
 }
 
 .subtext {
