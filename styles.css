@@ -47,11 +47,6 @@ a {
     color: white;
 }
 
-.text {
-    width: 50%;
-    font-weight: lighter;
-}
-
 .hero {
     font-weight: bolder;
     font-size: 48px;
@@ -79,6 +74,11 @@ a {
     border-radius: 25px;
     border-style: solid;
     border-color: white;
+}
+
+.text {
+    width: 50%;
+    font-weight: lighter;
 }
 
 img.placeholder {
@@ -140,7 +140,6 @@ img.placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*max-width: 700px;*/
     border: 0px;
 }
 
@@ -156,29 +155,42 @@ img.placeholder {
 }
 
 .rect {
-    width: 600px;
-    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 10%;
     background: #3882F6;
     border-radius: 15px;
-    margin: 100px;
-    padding: 50px;
+    margin: 75px;
+    padding: 30px;
 }
 
 .final {
     display: flex;
+    margin-left: auto;
+    justify-content: center;
     align-items: center;
     background:#3882F6;
     border-radius: 5px;
-    border-width: 3px;
+    border-width: 1px;
+    padding: 3px;
     border-color: white;
     border-style:solid;
+    color: white;
+    width: 100px;
+    font-family: Roboto;
+    font-weight: 100;
+    height: 50px;
+    max-height: 25px;
 }
 
 .subtext {
     display: flex;
-    align-items: center;
+    width: 75%;
+    margin-right: auto;
     color: white;
-    margin-bottom: 0px;
+    margin: 0px;
+    font-size: 14px;
 }
 
 .subtext#sub {
