@@ -112,17 +112,17 @@ img.placeholder {
 }
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 50px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .text2 {
     font-size: 18px;
-    color: #adaeaf;
+    color: #4b794e;
     font-weight: lighter;
 }
 
@@ -131,8 +131,8 @@ img.placeholder {
     max-width: 200px;
 }
 .image {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     border: 15px #3882f6;
 }
 
