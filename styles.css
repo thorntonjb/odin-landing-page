@@ -9,7 +9,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #1F2937;
+    background: #435670;
 }
 
 img.logo {
@@ -27,11 +27,12 @@ ul {
 
 a {
     font-size: 18px;
-    background: #1F2937;
+    background: #435670;
     color: #adaeaf;
     padding: 10px;
     text-decoration: none;
     margin: 0px 10px;
+    
   }
 
 .links {
@@ -43,7 +44,7 @@ a {
 .intro {
     display: flex;
     align-items: center;
-    background: #1F2937;
+    background: #435670;
     color: white;
 }
 
@@ -64,16 +65,23 @@ a {
 }
 
 .button {
+    display: flex;
     margin-left: 100px;
     margin-bottom: 100px;
-    padding: 15px;
-    background: #3882F6;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 25px;
-    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    background:#40577a;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
     border-color: white;
+    border-style:solid;
+    color: white;
+    width: 100px;
+    font-family: Roboto;
+    font-weight: bold;
+    height: 50px;
+    max-height: 25px;
 }
 
 .text {
@@ -85,8 +93,8 @@ img.placeholder {
     display: flex;
     margin-left: auto;
     padding-right: 100px;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
 }
 
 .bottom {
